@@ -27,21 +27,30 @@
 			</ol>
 
 			<form action="https://github.com/jgsielaff/Checkpoint2-Repository" method="GET">
+				<p>
 				<label for="name">Name:</label>
 				<input type="text" name="name" id="name" placeholder="Enter your name..." required>
+				</p>
 
+				<p>
 				<label for="email">Email:</label>
 				<input type="email" name="email" id="email" placeholder="Enter your email..." required>
+				</p>
+				
+				<p>
+				<label for="date">Date:</label>
+				<input type="date" name="date" id="date" required>
+				</p>
 
 				<fieldset>
 					<legend>Select the destinations you want to visit</legend>
-						<input type="checkbox" name="kelley" id="kelley">
+						<input type="checkbox" name="kelley" id="kelley" checked>
 						<label for="kelley">Kelley Country Creamery</label>
 
-						<input type="checkbox" name="sheeps" id="sheeps">
+						<input type="checkbox" name="sheeps" id="sheeps" checked>
 						<label for="sheeps">Sheeps Brewing Company</label>
 
-						<input type="checkbox" name="ellsworth" id="ellsworth">
+						<input type="checkbox" name="ellsworth" id="ellsworth" checked>
 						<label for="ellsworth">Ellsworth Cooperative Creamery</label>
 				</fieldset>
 				
