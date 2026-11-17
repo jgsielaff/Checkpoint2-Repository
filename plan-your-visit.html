@@ -17,7 +17,36 @@
 		</header>
 
 		<main>
+			<h1>Follow these steps to register for the trail:</h1>
+			<ol>
+				<li>Fill in your name and email.</li>
+				<li>Select which destinations and what day you want to visit.</li>
+				<li>Hit "Submit" when finished.</li>
+			</ol>
 
+			<form action="https://github.com/jgsielaff/Checkpoint2-Repository" method="GET">
+				<label for="name">Name:</label>
+				<input type="text" name="name" id="name" placeholder="Enter your name..." required>
+
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email" placeholder="Enter your email..." required>
+
+				<fieldset>
+					<legend>Select the destinations you want to visit</legend>
+						<input type="checkbox" name="kelley" id="kelley">
+						<label for="kelley">Kelley Country Creamery</label>
+
+						<input type="checkbox" name="sheeps" id="sheeps">
+						<label for="sheeps">Sheeps Brewing Company</label>
+
+						<input type="checkbox" name="ellsworth" id="ellsworth">
+						<label for="ellsworth">Ellsworth Cooperative Creamery</label>
+				</fieldset>
+				
+				<button type="submit">Submit</button>
+			</form>
+			
+			
 		</main>
 
 		<footer>
